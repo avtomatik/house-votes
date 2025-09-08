@@ -10,7 +10,7 @@ import pandas as pd
 from config import DATA_DIR, FILE_NAME
 
 kwargs = {
-    'filepath_or_buffer': DATA_DIR.joinpath('raw').joinpath(FILE_NAME),
+    'filepath_or_buffer': DATA_DIR / 'raw' / FILE_NAME,
     'sep': '\t',
     'index_col': 0,
     'encoding': 'cp1251',

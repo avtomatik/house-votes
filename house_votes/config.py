@@ -11,8 +11,8 @@ Created on Mon May 12 14:01:05 2025
 # =============================================================================
 from pathlib import Path
 
-BASE_DIR = Path(__file__).parent.parent
+BASE_DIR = Path(__file__).resolve().parent.parent
 
-DATA_DIR = BASE_DIR.joinpath('data')
+DATA_DIR = BASE_DIR / 'data'
 
 FILE_NAME = 'vote.txt'
