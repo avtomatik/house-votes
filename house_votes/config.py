@@ -16,3 +16,5 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DATA_DIR = BASE_DIR / 'data'
 
 FILE_NAME = 'vote.txt'
+
+RAW_DATA_PATH = DATA_DIR / 'raw' / FILE_NAME
